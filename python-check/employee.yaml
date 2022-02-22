@@ -1,0 +1,39 @@
+employee:
+  - firstname: hari
+    lastname: kishore
+    companies_worked:
+    - IBM
+    - Cognizant
+    - Philips
+    - Deollite
+    current_company: philips
+    Technologies:
+    - JAVA
+    - BIGDATA
+    - AWS
+  - firstname: Neelu
+    lastname: pasupuleti
+    companies_worked:
+    - IBM
+    - Cognizant
+    - Philips
+    - Deollite
+    current_company: IBM
+    Technologies:
+    - JAVA
+    - DBMS
+    - BIGDATA
+    - AWS
+    - MYSQL
+  - firstname: Nandana
+    lastname: Riyan
+    companies_worked:
+    - IBM
+    - Cognizant
+    - Philips
+    - Deollite
+    current_company: Deollite
+    Technologies:
+    - BIGDATA
+    - DBMS
+    - AWS
