@@ -1,0 +1,353 @@
+github:
+=======
+neelukishore
+Kishore@5292
+
+mail:
+
+pneelaveni90@gmail.com
+Kishore@5292
+
+User@DESKTOP-6UUFKLG MINGW64 ~
+$ cd /d
+
+User@DESKTOP-6UUFKLG MINGW64 /d
+$ ls -trh
+'$RECYCLE.BIN'/  'System Volume Information'/   githome/   python3.10/   devops/
+
+User@DESKTOP-6UUFKLG MINGW64 /d
+$ cd githome/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome
+$ ll
+total 0
+drwxr-xr-x 1 User 197121 0 Jan 20 23:03 Homeproject/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome
+$ cd Homeproject/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ ls -ltrh
+total 4.0K
+-rw-r--r-- 1 User 197121  14 Jan 20 22:27 README.md
+-rwxr-xr-x 1 User 197121 172 Jan 20 22:32 first.sh*
+-rwxr-xr-x 1 User 197121 231 Jan 20 22:52 second.sh*
+-rwxr-xr-x 1 User 197121 112 Jan 20 23:03 three.sh*
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ mkdir python-check
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ mkdir bash-check
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ mv *.sh bash-check/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ ls -ltrh
+total 1.0K
+-rw-r--r-- 1 User 197121 14 Jan 20 22:27 README.md
+drwxr-xr-x 1 User 197121  0 Jan 23 11:38 python-check/
+drwxr-xr-x 1 User 197121  0 Jan 23 11:38 bash-check/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ cp -rf ../../devops/
+__pycache__/   collection.py  dictinory.py   first.sh       hello.py       hello1.py      pyverssion.py  second.sh      three.sh
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ cp -rf ../../devops/*.py python-check/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ cd python-check/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ ll
+total 8
+-rw-r--r-- 1 User 197121 983 Jan 23 11:39 collection.py
+-rw-r--r-- 1 User 197121 437 Jan 23 11:39 dictinory.py
+-rw-r--r-- 1 User 197121 255 Jan 23 11:39 hello.py
+-rw-r--r-- 1 User 197121 214 Jan 23 11:39 hello1.py
+-rw-r--r-- 1 User 197121  81 Jan 23 11:39 pyverssion.py
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ cd ../
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    first.sh
+        deleted:    second.sh
+        deleted:    three.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        bash-check/
+        python-check/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git add .
+warning: LF will be replaced by CRLF in bash-check/first.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bash-check/second.sh.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in bash-check/three.sh.
+The file will have its original line endings in your working directory
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git commit -m "python codes are created"
+[main 0a9c832] python codes are created
+ 8 files changed, 129 insertions(+)
+ rename first.sh => bash-check/first.sh (100%)
+ rename second.sh => bash-check/second.sh (100%)
+ rename three.sh => bash-check/three.sh (100%)
+ create mode 100644 python-check/collection.py
+ create mode 100644 python-check/dictinory.py
+ create mode 100644 python-check/hello.py
+ create mode 100644 python-check/hello1.py
+ create mode 100644 python-check/pyverssion.py
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.48 KiB | 378.00 KiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/neelukishore/Homeproject.git
+   d9a6492..0a9c832  main -> main
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject (main)
+$ git branch
+* main
+
+
+
+
+
+
+
+
+
+
+
+
+User@DESKTOP-6UUFKLG MINGW64 /d/devops
+$ ls -ltrh
+total 14K
+-rwxr-xr-x 1 User 197121 172 Jan 20 22:20 first.sh*
+-rwxr-xr-x 1 User 197121 231 Jan 20 22:49 second.sh*
+-rwxr-xr-x 1 User 197121 112 Jan 20 22:59 three.sh*
+-rw-r--r-- 1 User 197121 255 Jan 22 16:50 hello.py
+-rw-r--r-- 1 User 197121 214 Jan 23 05:18 hello1.py
+-rw-r--r-- 1 User 197121 983 Jan 23 06:47 collection.py
+drwxr-xr-x 1 User 197121   0 Jan 23 11:30 __pycache__/
+-rw-r--r-- 1 User 197121  81 Jan 23 11:35 pyverssion.py
+-rw-r--r-- 1 User 197121 780 Jan 23 12:12 dictinory.py
+
+User@DESKTOP-6UUFKLG MINGW64 /d/devops
+$ cp dictinory.py ../githome/Homeproject/python-check/
+
+User@DESKTOP-6UUFKLG MINGW64 /d/devops
+$ cd ../githome/Homeproject/python-check
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ ll
+total 11
+-rw-r--r-- 1 User 197121 983 Jan 23 11:39 collection.py
+-rw-r--r-- 1 User 197121 780 Jan 23 12:13 dictinory.py
+-rw-r--r-- 1 User 197121 255 Jan 23 11:39 hello.py
+-rw-r--r-- 1 User 197121 214 Jan 23 11:39 hello1.py
+-rw-r--r-- 1 User 197121  81 Jan 23 11:39 pyverssion.py
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   dictinory.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ git add .
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ git commit -m "dic change"
+[main 19dffb5] dic change
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 572 bytes | 190.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/neelukishore/Homeproject.git
+   0a9c832..19dffb5  main -> main
+
+User@DESKTOP-6UUFKLG MINGW64 /d/githome/Homeproject/python-check (main)
+$
+
+
+
+---------------------------02/02/2022----------------------------
+
+[ec2-user@ip-172-168-0-226 python-prac]$ sudo find / -iname python
+/etc/python
+/usr/bin/python
+/usr/share/gcc-7/python
+
+
+[root@ip-172-168-0-226 ~]# history
+    1  cd /usr/bin
+    2  ls -ltrh
+    3  ls -ltrh *python
+    4  yum update -y
+    5  yum install -y python3
+    6  python3
+    7  python
+    8  find / -iname python3
+    9  ls -ltrh python*
+   10  exit
+   11  python
+   12  exit
+   13  python
+   14  find / -iname python3
+   15  cd /usr/bin
+   16  ls -ltrh python*
+   17  python3
+   18  python2
+   19  python
+   20  unlink python
+   21  ln -s python3 python
+   22  ls -ltrh
+   23  ls -ltrh python*
+   24  python
+   25  ext
+   26  exit
+   27  python -m pip freeze
+   28  python -m pip list
+   29  python -m pip install PyYaml
+   30  python -m pip freeze
+   31  python -m pip list
+   32  exit
+
+
+
+
+############7/3/22
+
+
+
+ crontab -l
+   98  vi /tmp/run.sh
+   99  sh -x /tmp/run.sh
+  100  vi /tmp/run.sh
+  101  sh -x /tmp/run.sh
+  102  vi /tmp/run.sh
+  103  sh -x /tmp/run.sh
+  104  cd /tmp
+  105  ll
+  106  sh -x run.sh
+  107  ll
+  108  crontab -e
+  109  crontab -l
+  110  date
+  111  systemctl status crond.service
+  112  systemctl restart crond.service
+  113  systemctl status crond.service
+  114  ls -ltrh
+  115  cat test_files.txt.2022.03.07-08.30.01
+  116  vi /var/spool/mail/root
+  117  ll
+  118  systemctl stop crond.service
+  119  ll
+  120  crontab -e
+  121  systemctl start crond.service
+  122  systemctl status crond.service
+  123  ls -ltrh
+  124  ll
+  125  cat /var/spool/mail/root
+  126  vi /var/spool/mail/root
+  127  history
+
+
+
+
+
+
+
+
+
+######IAM access key and secretkeys
+
+AKIAZBJ4ATSP5LBCNDLI 
+2jxJazafTNWSAjBO9WoUkpCygzJaEZgzsFS3UoeX
+
+
+
+
+
+
+
+
+===================== 04/03/2022
+
+python info
+
+   14  yum update
+   15  ls
+   16  exit
+   17  yum update
+   18  git --version
+   19  ls -a
+   20  cd .ssh/
+   21  ls -a
+   22  cd ..
+   23  ls - ltr
+   24  ls -la
+   25  yum update
+   26  ls -la
+   27  yum install java-11-openjdk-devel
+   28  sudo yum install java-11-openjdk
+   29  java version
+   30  java -version
+   31  sudo yum install java-1.8.0-openjdk-devel
+   32  java -version
+   33  python
+   34  python --version
+   35  ls -la
+   36  exit
+   37  find / -iname python*
+   38  cd /usr/bin
+   39  ls -ltrh python*
+   40  unlink python
+   41  ls -ltrh python*
+   42  python
+   43  ln -s python3 python
+   44  ls -ltrh python*
+   45  python
+   46  python --version
+   47  history
